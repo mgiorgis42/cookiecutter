@@ -1,0 +1,49 @@
+.form-container {
+    width: 650px;
+    margin:auto;
+    box-shadow: 2px 5px 10px gray;
+    margin-top: 50px;
+    margin-bottom: 300px;
+}
+
+.form-container h1 {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.form-container h4 {
+    text-align: center;
+}
+
+.form-container h6 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.password-requirements {
+    width: 475px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.fulfilled-symbol {
+    display: inline;
+}
+
+.fulfilled-symbol:after {
+    content: 'X';
+}
+
+.requirement {
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.fulfilled {
+    color: green;
+}
+
+.fulfilled .fulfilled-symbol:after {
+    content: '\2713';
+}
